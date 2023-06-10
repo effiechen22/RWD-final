@@ -837,12 +837,13 @@ background-color:#181818;
    .content-login .loginbox{
       width: 100%;
    }
-
-.content-login .btn-loginbox input[type="button"]{
-      padding: 5px 0px ; 
-      width: 45%; 
-      }
-
+   .content-login .btn-box{
+      width: 100%;
+   }
+   .content-login .btn-box input[type="button"]{
+      width: 40%;
+      padding: 10px 0px ; 
+   }
    }
 
 /* ----------登入.html 結束---------- */
