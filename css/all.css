@@ -685,6 +685,52 @@ background-color:#181818;
    font-size: 25px;
    }
 
+   .content-market .product-list .ribbon{
+      width: 200px;
+      padding:8px 0;
+      background-color: #00CC99 ;
+      text-align:center;
+      color:#fff;
+      transform: rotate(45deg);
+      position: absolute;
+      left:60px;
+      top:18px;
+      font-size: 18px;      
+      z-index: 3;
+   }
+
+   .content-market .product-list .ribbonposition{
+      position:absolute;
+      z-index: 5;
+      right: -10px;
+      top:-8px;
+   }
+
+
+   .content-market .product-list .ribbonbox{
+      position: relative;
+      width: 200px;
+      height: 200px;
+      overflow: hidden;
+   }
+   .content-market .ribbonbox::after,.ribbonbox::before{
+      content: '';
+      position:absolute;
+      display: block;
+      border: #078F6D  solid 5px;
+      z-index: 2;
+      }
+   
+   .content-market .ribbonbox::after {
+      top:52%;
+      left:95%;
+      transform: translateY(-50%);
+   } 
+   .content-market .ribbonbox::before {
+      top:0%;
+      left:48%;
+      transform: translateX(-50%);
+   } 
 .content-market .product-list .product-name{
    font-size: 20px;
    line-height: 1.5;
